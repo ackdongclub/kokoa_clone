@@ -4,26 +4,27 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>Welcome to Apple Talk</title>
 </head>
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Service</span>
+            <i class="fas fa-signal"></i>
+            <span>PM14:30</span>
+        </div>
+        <div class="status-bar__column">
+            <span><i class="fas fa-ellipsis-h"></i></span>
+        </div>
+        <div class="status-bar__column">
             <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
             <span>100%</span>
             <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
         </div>
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">
+            <i class="fab fa-apple"></i>Friends</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
@@ -31,20 +32,22 @@
         </div>
     </header>
 
-    <a id="friend-display-link">
-        <i class="fas fa-info-circle"></i>Friends' Names Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
+    <div>
+        <a id="friend-display-link">
+            <i class="fas fa-info-circle"></i>Friend's Names Display
+            <i class="fas fa-chevron-right fa-xs"></i>
+        </a>
+    </div>
 
     <main class="friends-screen">  
         <div class="user-component">
             <div class="user-component__column">
                 <img 
-                src="sunmi.jpg" 
+                src="timcook.jpg" 
                 class="user-component__avatar user-component__avatar--xl" 
                 />
                 <div class="user-component__text">
-                    <h4 class="user-component__tilte">Sunmi</h4>
+                    <h4 class="user-component__title">Tim cook</h4>
                     <!--  <h6 class="user-component__subtitle">this text whatever</h6>--> 
                 </div>
             </div>
@@ -58,48 +61,84 @@
             <div class="user-component">
                 <div class="user-component__column">
                     <img 
-                      src="sunmi.jpg" 
+                      src="apple.jpg" 
                       class="user-component__avatar user-component__avatar--sm" 
                     />
                   <div class="user-component__text">
-                    <h4 class="user-component__tilte user-component__tilte--not-bold">
+                    <h4 class="user-component__title user-component__title--not-bold">
                        Channel
                     </h4> 
                   </div>
                 </div>
-             <div class="user-component__column">
-                 <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
-                 </div>
-             </div>
+                <div class="user-component__column">
+                    <div><span>2</span>
+                         <i class="fas fa-chevron-right fa-xs"></i>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="friends-screen__channel">
+            <div class="friend-screen__channel-header">
+                <span>Friends </span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img 
+                      src="jons.jpg" 
+                      class="user-component__avatar user-component__avatar--sm" 
+                    />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">
+                       Steve jobs
+                    </h4> 
+                  </div>
+                </div>
+                <div class="user-component__column"></div>
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img 
+                          src="lee.jpg" 
+                          class="user-component__avatar user-component__avatar--sm" 
+                        />
+                      <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">
+                           Jea yong
+                        </h4> 
+                      </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
         </div>
-        </div>
+    </div>
     </main>
         
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__btn">
-                    <a class="nav__link" href="friend.html"><i class="fas fa-user fa-2x"></i></a></li>
-                <li class="nav__btn">
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friend.html">
+                    <i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
 
-                    <a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i class="far fa-comment fa-2x"></i></a></li>
-                <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn">
 
-                    <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
-                <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn">
 
-                    <a class="nav__link" href="more.html"><span class="nav__point"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
-            </ul>
-        </nav>
+                <a class="nav__link" href="more.html">
+                    <span class="nav__point"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
 
-        <div id="splash-screen">
-            <i class="fas fa-comment"></i></a></li>
-        </div>
-
-        <div id="no-mobile">
-            <span>Your screen is too big♥</span>
-        </div>
+    <div id="splash-screen">
+        <i class="fab fa-apple"></i></li>
+    </div>
 
     <script src="https://kit.fontawesome.com/85ae4b2c83.js" crossorigin="anonymous"
     ></script>
