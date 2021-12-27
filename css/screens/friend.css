@@ -43,3 +43,6 @@
     animation-delay: 1s;
 }
 
+.nav__btn span i{
+    color: var(--blue);
+}

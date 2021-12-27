@@ -53,3 +53,7 @@
 .more-suggestions__icon-text {
     margin-top: 5px;
 }
+
+.nav__btn span i{
+    color: var(--blue);
+}
