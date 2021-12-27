@@ -14,7 +14,20 @@
     display: block;
     margin: 100px 0px;
     text-align: center;
-    color: var(--color-gray);
+    color: black;
+}
+
+.keyword {
+    display: flex;
+    justify-content: space-between;
+    margin: -30px 30px;
+}
+
+
+.keyword span {
+    background-color: #e2e2e2;
+    padding: 13px 20px;
+    border-radius: 30px;
 }
 
 .open-chat__header {
@@ -47,7 +60,7 @@
 }
 
 .open-post__members img {
-    width: 10px;
+    width: 15px;
     height: 15px;
     border: 1px solid var(--color-gray);
     border-radius: 5px;
@@ -67,7 +80,7 @@
 }
 
 .open-post__members-status {
-    color: rgb(255, 0, 128);
+    color: var(--blue);
 
 }
 

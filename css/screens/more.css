@@ -24,18 +24,32 @@
     align-items: center;
 }
 
-.more-suggestions__icon-imgs {
-    width: 60px;
-    height: 60px;
-    background-color: var(--yellow);
+.more-suggestions__icon-imgs img{
+    width: 65px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.more-suggestions__icon-imgs{
+    width: 70px;
+    height: 70px;
+    background-color: white;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .more-suggestions__icon-imgs i {
-    font-size: 25px;
-    color: white;
+    font-size: 50px;
+    color: black;
+}
+
+.more-suggestions__icon-text {
+    margin-top: 5px;
 }

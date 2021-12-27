@@ -3,13 +3,16 @@
     align-items: center;
     justify-content: space-between;
     padding: var(--horizontal-spance);
-    padding-top: 40px;
-    margin-bottom: 10px;
+    padding-top:30px;
 }
 
 .screen-header__title{
     font-size: 28px;
     font-weight: 600;
+}
+
+.screen-header__title i {
+    margin-right: 3px;
 }
 
 .screen-header__icons span {
@@ -27,4 +30,12 @@
 
 .screen-header__icons .fa-cog:hover {
     animation: rotateCog 1s linear infinite;
+}
+
+.promotion img{
+    height: 150px;
+    width: 95%;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    border-radius: 20px;
 }

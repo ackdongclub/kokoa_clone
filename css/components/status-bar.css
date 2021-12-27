@@ -3,7 +3,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5px 3px;
+    padding: 6px 3px;
+    background: linear-gradient( to bottom, white, #D3D3D3); 
     
 }
 
@@ -27,3 +28,8 @@
 .status-bar__column .fa-battery-full{
     margin: 0px 5px;
 }
+
+.status-bar__column .fa-signal {
+    color: var(--blue);
+}
+

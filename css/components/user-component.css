@@ -1,10 +1,13 @@
 .user-component {
     display: flex;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .user-component {
     justify-content: space-between;
 }
+
 
 .user-component,
 .user-component__column:first-child {
@@ -13,14 +16,14 @@
 }
 
 .user-component__avatar {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 30px;
     border: 1px solid gray;
     margin-right: 20px;
 }
 
-.user-component__tilte {
+.user-component__title {
     font-weight: 600;
     font-size: 20px;
 }
@@ -40,10 +43,12 @@
     width: 60px;
     height: 60px;
     border-radius: 25px;
+    margin-top: -10px;
 }
 
-.user-component__tilte--not-bold {
+.user-component__title--not-bold {
     font-weight: 400;
+    margin-top: -10px;
 }
 
 

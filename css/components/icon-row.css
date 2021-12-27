@@ -7,10 +7,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 15px;
 }
 
-.icon-row__icon i {
-    font-size: 37px;
+.icon-row__icon i{
+    margin-top: 30px;
+    font-size: 30px;
 }
 
 .icon-row__icon span {

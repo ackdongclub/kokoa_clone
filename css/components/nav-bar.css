@@ -2,10 +2,11 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f9f9fa;
     padding: 20px 50px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgb(153, 153, 153);
+    background: linear-gradient( to bottom, white, #D3D3D3);
+
 }
 
 .nav__list {
@@ -31,7 +32,7 @@
 }
 
 .nav__notification {
-    background-color: tomato;
+    background-color: blue;
     width: 25px;
     height: 25px;
     border-radius: 12.5px;
@@ -47,7 +48,7 @@
 }
 
 .nav__point {
-    background-color: tomato;
+    background-color: red;
     width: 8px;
     height: 8px;
     border-radius: 4px;
@@ -74,6 +75,11 @@
     transform: translateY(50px);
     opacity: 0;
     animation: appearBtnAnimation 0.3s ease-in-out forwards;
+    color: black;
+}
+
+.nav__btn i {
+    color: rgb(151, 151, 151);
 }
 
 .nav__btn:nth-child(2) {

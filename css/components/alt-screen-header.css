@@ -11,6 +11,11 @@
     width: 33%;
 }
 
+.alt-header__column i {
+    color: black;
+    
+}
+
 .alt-header__title {
     font-size: 28px;
     font-weight: 600;
@@ -31,7 +36,7 @@
 
 }
 
-.alt-header__column span:last-child {
-    margin-left: 20px;
-}
 
+.alt-header__column span {
+    margin-left: 5px;
+}
